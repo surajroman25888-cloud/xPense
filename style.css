@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+     font-family: "Hind Siliguri", sans-serif;
+}
+
+/* ........... header ............  */
+header {
+    padding: 20px 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #292830;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-btn button {
+    padding: 10px 20px;
+    color:#FF7235;
+    border: 1px solid #FF7235;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400px;
+    border-radius: 8px;
+}
+
+/* hero section ..........  */
+section {
+    padding: 80px 0;
+}
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-flex .info {
+    width: 50%;
+}
+
+.hero-flex .info h1{
+    font-weight: 700;
+    font-size: 96px;
+    color: #292830;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.mb {
+    margin-bottom: 20px
+}
+
+.hero-flex .info p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #BDBDBD;
+    margin-bottom: 20px;
+}
+.hero-flex .image {
+    width: 50%;
+    text-align: right;
+}
+
+
+.hero-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+}
+
+.hero-btn button {
+    padding: 10px 20px;
+    background-color: #FF7235;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 8px;
+} 
+
+.hero-btn a {
+    font-size: 24px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+/* ... product section ............  */
+.product-section {
+    position: relative;
+    background-color: #FF7235;
+}
+
+.product-section .product-image img{
+    width: 100%;
+    padding-top: 80px;
+    position: relative;
+    bottom: -8px;
+    z-index: 1;
+}
+
+.image-shadow .bottom-shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.image-shadow .top-shadow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.brand img {
+    width: 120px;
+}
+
+/* feature section ..........  */
+.feature-flex {
+    display: flex;
+    gap: 94px;
+    /* justify-content:space-between; */
+}
+
+.feature-flex .info {
+    width: 50%;
+}
+
+.feature-flex .feature-img {
+    width: 50%;
+}
+
+.feature-flex .feature-img img {
+    width: 100%;
+}
+
+.feature-flex .info h5 {
+    font-size: 22px;
+    color: #BDBDBD;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.feature-flex .info h1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: #292830;
+    line-height: 100%;
+}
+
+.feature-flex .info p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #BDBDBD;
+    /* line-height: 100%; */
+}
+
+.feature-flex .info a {
+    font-size: 24px;
+    font-size: 400;
+    color:#FF7235;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .......... Feature-section2 .........  */
+.product-flex {
+    display: flex;
+    /* align-items: center; */
+}
+
+.product-flex .heading {
+    width: 70%;
+}
+
+.product-flex .heading h1 {
+    font-size: 96px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #292830;
+}
+
+.product-flex .paragraph p {
+    font-size: 24px;
+    /* line-height: 100%; */
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.product-flex .paragraph {
+    width: 30%;
+}
+
+/* .........product Feature ..........  */
+
+.product-feature-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 60px 0px;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    transition: 0.3s ease;
+
+}
+
+.product-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-content:hover button{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-content img{
+    width: 30px;
+}
+
+.product-content h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #292830;
+}
+
+.product-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.product-content button {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.3s ease;
+}
+
+/* ............ Flexible plan ...............  */
+.flexible-heading {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: #292830;
+}
+
+.flexible-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flexible-flex .plan {
+    padding: 40px;
+    border: 1px solid #F5F5F5;
+}
+
+.flexible-flex .plan h4 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #292830;
+}
+
+.flexible-flex .plan ul li {
+    list-style: none;
+}
+
+.flexible-flex .plan ul li i {
+    color:#BDBDBD;
+}
+
+.price p {
+    color:#BDBDBD;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price .amount {
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.price .period {
+    color:#BDBDBD;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.flexible-flex .plan button {
+    border: 1px solid #FF7235;
+    padding: 10px 20px;
+    color: #FF7235;
+}
+
+/* .......... Best Wishes .............  */
+
+
+
+
+
+
+
